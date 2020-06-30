@@ -1,0 +1,87 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.highlight{
+    color: orange;
+}
+.header-half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.header-half img{
+    width: 100%;
+    
+}
+.top-banner{
+        background-image: url("images/top-banner.png");
+        background-repeat: no-repeat;
+
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.Hire-Me-Button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+    
+}
+.Dream-Area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.exp-aling{
+    
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+    width: 215px;
+    margin-left: 550px;
+}
+.single-experiance{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    background-color: white;
+}
+.experiance-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: top-left;
+}
+#Full-Stack{
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#Graphic{
+     border-left: 7px solid;
+    border-image: linear-gradient( 180deg, blue, cyan);
+    border-image-slice: 1;
+}
+.footer{
+    text-align: center;
+    color: dimgray;
+    font-size: 10px;
+}
